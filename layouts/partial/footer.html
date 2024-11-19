@@ -1,0 +1,84 @@
+<footer id="footer">
+  <section class="footer bg-body-tertiary py-5">
+    <div class="mx-3 mx-md-5 footer-text">
+      <div class="row">
+        <div>
+          <p class="mb-3 text-black fw-bold">
+            (주) 코드박스 <span class="fw-normal">Kodebox Co.,Ltd.</span>
+          </p>
+          <p>
+            대표: 서광열, 이영민 | 사업자등록번호: 107-88-42217<br />
+            통신판매업번호: 2017-서울강남-04048 | 서울시 강남구 테헤란로 20길
+            12, 5층<br />
+            웹사이트:
+            <a
+              href="https://kodebox.io"
+              class="text-decoration-none"
+              rel="noopener noreferrer"
+              title="코드박스 홈페이지"
+            >
+              https://kodebox.io </a
+            ><br />
+            고객센터: 02-6677-3944 | 이메일: help@zuzu.network<br />
+            도입 문의 운영시간: 주중 10:00AM ~ 6:00PM (1:00PM ~ 2:00PM
+            점심시간), 주말, 공휴일 휴무
+            <br />
+          </p>
+
+          <div class="mb-2">
+            제휴 문의 이메일: partner@zuzu.network
+            <div class="d-inline-flex align-items-center">
+              <p class="mb-0">
+                <span class="lg-only">| </span>기업의 가치를 믿는 IBK기업은행과
+                함께합니다.<img
+                  src="https://res.cloudinary.com/zuzu-homepage/image/upload/q_auto,f_auto/v1728217653/erdwlrqwstktqfx10tsy.png"
+                  alt="IBK기업은행 로고"
+                  class="ms-2"
+                  style="width: 16px; height: 16px"
+                />
+              </p>
+            </div>
+          </div>
+          <div
+            class="d-flex flex-md-row flex-column align-items-start gap-md-3 gap-1 my-3"
+          >
+            <button
+              class="btn btn-link p-0 text-decoration-none text-black fw-medium"
+              style="font-size: inherit"
+              onclick="onopen();"
+            >
+              공정거래위원회 사업자정보공개
+            </button>
+            <a
+              href="https://zuzu.network/term-and-privacy/privacy-policy/"
+              class="text-decoration-none text-black fw-normal"
+              target="_blank"
+            >
+              개인정보 처리방침
+            </a>
+
+            <form id="frm1" class="d-none">
+              <input type="hidden" name="wrkr_no" value="1078842217" />
+            </form>
+          </div>
+          <p class="mb-0 fw-medium text-muted">
+            Organize the world's private assets and provide easy access to the
+            public
+          </p>
+          <p class="mb-0">Copyright 2024 © Kodebox. All Rights Reserved.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+</footer>
+
+<!-- 삭제 금지 -->
+<script language="JavaScript">
+  function onopen() {
+    var frm1 = document.getElementById("frm1");
+    var url =
+      "http://www.ftc.go.kr/bizCommPop.do?wrkr_no=" + frm1.wrkr_no.value;
+    window.open(url, "bizCommPop", "width=750, height=700");
+  }
+</script>
+
